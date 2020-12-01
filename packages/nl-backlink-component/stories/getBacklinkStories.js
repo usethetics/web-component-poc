@@ -21,19 +21,19 @@ export const getBacklinkStories = ({ prefix, Template }) => {
       },
       cssresources: [
         {
-          id: 'Example Default Theme',
+          id: 'Example Backlink Default Styles',
           code: `<style>:root ${defaultTheme}</style>`,
           picked: true,
           hideCode: false,
         },
         {
-          id: 'Example Light Mode',
+          id: 'Example Backlink Light Mode',
           code: `<style>:root ${exampleLightMode}</style>`,
           picked: true,
           hideCode: false, // Defaults to false, this enables you to hide the code snippet and only displays the style selector
         },
         {
-          id: 'Example Dark Mode',
+          id: 'Example Backlink Dark Mode',
           code: `<style>:root ${exampleDarkMode};</style>`,
           picked: false,
           hideCode: false, // Defaults to false, this enables you to hide the code snippet and only displays the style selector
